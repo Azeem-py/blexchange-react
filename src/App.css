@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.headerBanner {
+  background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgba(105, 0, 199, 1) 100%
+  );
+  color: #fff;
+}
+
+.NavBarBrand {
+  flex-grow: 10 !important;
+  font-weight: bolder !important;
+  color: #0466c8 !important;
+}
+.linksDiv {
+  color: #338aff !important;
+}
+.activeLink {
+  color: #0520b7 !important;
+}
+.headerBtn {
+  color: #fff !important;
+}
+
+.wave_container {
+  padding: 0 !important;
+}
+.backlink_merit {
+  text-align: center !important;
+  color: #0466c8;
+}
+.backlinkMerit {
+  background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgba(105, 0, 199, 1) 100%
+  );
+}
+
+.backlinkMeritHeader {
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem !important;
+}
+
+@media only screen and (min-width: 769px) {
+  .headerBanner {
+    justify-content: space-around;
+  }
+
+  .headerBanner h2 {
+    font-size: 3rem;
+  }
+  .headerBanner p {
+    font-size: 1.3rem;
+  }
+  .backlinkMeritHeader h2 {
+    font-size: 3.2rem !important;
+  }
+}
